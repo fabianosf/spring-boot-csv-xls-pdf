@@ -1,3 +1,6 @@
+/*
+ * @author Fabiano Freitas
+ */
 package com.springformat.config;
 
 import org.springframework.context.annotation.Bean;

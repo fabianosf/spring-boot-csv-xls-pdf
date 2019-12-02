@@ -1,3 +1,6 @@
+/*
+ * @author Fabiano Freitas
+ */
 package com.springformat.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;

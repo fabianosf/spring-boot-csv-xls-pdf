@@ -1,3 +1,6 @@
+/*
+ * @author Fabiano Freitas
+ */
 package com.springformat.entity;
 
 import javax.persistence.Entity;
@@ -14,300 +17,164 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "TB_USER")
 public class User {
-	
-	/**
-	 * 
-	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	
-    /**
-     * 
-     */
-    private String firstName;
 
-    /**
-     * 
-     */
-    private String lastName;
+	private String firstName;
 
-    /**
-     * 
-     */
-    private Integer age;
+	private String lastName;
 
-    /**
-     * 
-     */
-    private String jobTitle;
+	private Integer age;
 
-    /**
-     * 
-     */
-    private String company;
+	private String jobTitle;
 
-    /**
-     * 
-     */
-    private String address;
+	private String company;
 
-    /**
-     * 
-     */
-    private String city;
+	private String address;
 
-    /**
-     * 
-     */
-    private String country;
+	private String city;
 
-    /**
-     * 
-     */
-    private String phoneNumber;
+	private String country;
 
-    /**
-     * 
-     */
-    public User() {
+	private String phoneNumber;
 
-    }
+	public User() {
 
-    /**
-     * 
-     *
-     * @param firstName 
-     * @param lastName 
-     * @param age 
-     * @param jobTitle 
-     * @param company 
-     * @param address 
-     * @param city 
-     * @param country 
-     * @param phoneNumber 
-     */
-    public User(String firstName, String lastName, Integer age, String jobTitle, String company, String address,
-                String city, String country, String phoneNumber) {
-
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-        this.jobTitle = jobTitle;
-        this.company = company;
-        this.address = address;
-        this.city = city;
-        this.country = country;
-        this.phoneNumber = phoneNumber;
-    }
-    
-    
-
-    /**
-     * 
-     *
-     * @return 
-     */
-    public Integer getId() {
-		return id;
 	}
 
 	/**
 	 * 
 	 *
-	 * @param id 
+	 * @param firstName
+	 * @param lastName
+	 * @param age
+	 * @param jobTitle
+	 * @param company
+	 * @param address
+	 * @param city
+	 * @param country
+	 * @param phoneNumber
 	 */
+	public User(String firstName, String lastName, Integer age, String jobTitle, String company, String address,
+			String city, String country, String phoneNumber) {
+
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.jobTitle = jobTitle;
+		this.company = company;
+		this.address = address;
+		this.city = city;
+		this.country = country;
+		this.phoneNumber = phoneNumber;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
 	public void setId(Integer id) {
 		this.id = id;
 	}
 
+	public String getFirstName() {
+
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+
+		this.lastName = lastName;
+	}
+
 	/**
 	 * 
 	 *
-	 * @return 
+	 * @return
 	 */
-	public String getFirstName() {
+	public Integer getAge() {
 
-        return firstName;
-    }
+		return age;
+	}
 
-    /**
-     * 
-     *
-     * @param firstName 
-     */
-    public void setFirstName(String firstName) {
+	public void setAge(Integer age) {
 
-        this.firstName = firstName;
-    }
+		this.age = age;
+	}
 
-    /**
-     * 
-     *
-     * @return 
-     */
-    public String getLastName() {
+	public String getJobTitle() {
 
-        return lastName;
-    }
+		return jobTitle;
+	}
 
-    /**
-     * 
-     *
-     * @param lastName 
-     */
-    public void setLastName(String lastName) {
+	public void setJobTitle(String jobTitle) {
 
-        this.lastName = lastName;
-    }
+		this.jobTitle = jobTitle;
+	}
 
-    /**
-     * 
-     *
-     * @return 
-     */
-    public Integer getAge() {
+	public String getCompany() {
 
-        return age;
-    }
+		return company;
+	}
 
-    /**
-     * 
-     *
-     * @param age 
-     */
-    public void setAge(Integer age) {
+	public void setCompany(String company) {
 
-        this.age = age;
-    }
+		this.company = company;
+	}
 
-    /**
-     * 
-     *
-     * @return 
-     */
-    public String getJobTitle() {
+	public String getAddress() {
 
-        return jobTitle;
-    }
+		return address;
+	}
 
-    /**
-     * 
-     *
-     * @param jobTitle 
-     */
-    public void setJobTitle(String jobTitle) {
+	public void setAddress(String address) {
 
-        this.jobTitle = jobTitle;
-    }
+		this.address = address;
+	}
 
-    /**
-     * 
-     *
-     * @return 
-     */
-    public String getCompany() {
+	public String getCity() {
 
-        return company;
-    }
+		return city;
+	}
 
-    /**
-     * 
-     *
-     * @param company 
-     */
-    public void setCompany(String company) {
+	public void setCity(String city) {
 
-        this.company = company;
-    }
+		this.city = city;
+	}
 
-    /**
-     * 
-     *
-     * @return 
-     */
-    public String getAddress() {
+	public String getCountry() {
 
-        return address;
-    }
+		return country;
+	}
 
-    /**
-     * 
-     *
-     * @param address 
-     */
-    public void setAddress(String address) {
+	public void setCountry(String country) {
 
-        this.address = address;
-    }
+		this.country = country;
+	}
 
-    /**
-     * 
-     *
-     * @return 
-     */
-    public String getCity() {
+	public String getPhoneNumber() {
 
-        return city;
-    }
+		return phoneNumber;
+	}
 
-    /**
-     * 
-     *
-     * @param city 
-     */
-    public void setCity(String city) {
+	public void setPhoneNumber(String phoneNumber) {
 
-        this.city = city;
-    }
+		this.phoneNumber = phoneNumber;
+	}
 
-    /**
-     * 
-     *
-     * @return 
-     */
-    public String getCountry() {
+	public int getColumnCount() {
 
-        return country;
-    }
-
-    /**
-     * 
-     *
-     * @param country 
-     */
-    public void setCountry(String country) {
-
-        this.country = country;
-    }
-
-    /**
-     * 
-     *
-     * @return 
-     */
-    public String getPhoneNumber() {
-
-        return phoneNumber;
-    }
-
-    /**
-     * 
-     *
-     * @param phoneNumber 
-     */
-    public void setPhoneNumber(String phoneNumber) {
-
-        this.phoneNumber = phoneNumber;
-    }
-
-    /**
-     * 
-     *
-     * @return 
-     */
-    public int getColumnCount() {
-
-        return getClass().getDeclaredFields().length;
-    }
+		return getClass().getDeclaredFields().length;
+	}
 }

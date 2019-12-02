@@ -1,3 +1,6 @@
+/*
+ * @author Fabiano Freitas
+ */
 package com.springformat.service;
 
 import java.util.List;
@@ -14,19 +17,10 @@ import com.springformat.repository.UserRepository;
 @Service
 public class UserService {
 
-	 
-
-	/**
-	 * 
-	 */
 	@Autowired
 	private UserRepository repository;
 
-	/**
-	 * 
-	 *
-	 * @return 
-	 */
+	
 	public List<User> findAllUsers() {
 		return repository.findAll();
 

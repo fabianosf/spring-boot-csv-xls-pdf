@@ -1,3 +1,6 @@
+/*
+ * @author Fabiano Freitas
+ */
 package com.spring;
 
 import org.junit.Test;

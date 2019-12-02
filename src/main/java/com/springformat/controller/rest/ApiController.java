@@ -1,3 +1,6 @@
+/*
+ * @author Fabiano Freitas
+ */
 package com.springformat.controller.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;

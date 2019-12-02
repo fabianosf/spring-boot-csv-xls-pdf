@@ -1,3 +1,6 @@
+/*
+ * @author Fabiano Freitas
+ */
 package com.springformat.viewResolver;
 
 import org.springframework.web.servlet.View;

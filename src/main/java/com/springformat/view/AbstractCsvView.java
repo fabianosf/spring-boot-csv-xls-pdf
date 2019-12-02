@@ -1,3 +1,6 @@
+/*
+ * @author Fabiano Freitas
+ */
  package com.springformat.view;
 
  import org.springframework.web.servlet.view.AbstractView;
