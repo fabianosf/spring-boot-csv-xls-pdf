@@ -1,0 +1,10 @@
+com.spring
+com.springformat
+com.springformat.config
+com.springformat.controller
+com.springformat.controller.rest
+com.springformat.entity
+com.springformat.repository
+com.springformat.service
+com.springformat.view
+com.springformat.viewResolver
