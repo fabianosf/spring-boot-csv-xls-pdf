@@ -8,8 +8,8 @@
 * [MySQL](https://dev.mysql.com/) - Open-Source Relational Database Management System
 * [Git](https://git-scm.com/) - Free and Open-Source distributed version control system  
 * [Itext](https://itextpdf.com/en) - PDF Toolkit for PDF generation, PDF programming, handling & manipulation.
-* [poi-ooxml](https://poi.apache.org/) - Java API To Access Microsoft Excel Format Files
-* [super-csv](http://super-csv.github.io/super-csv/index.html) - Java API To CSV Format Files
+* [Poi-ooxml](https://poi.apache.org/) - Java API To Access Microsoft Excel Format Files
+* [Super-csv](http://super-csv.github.io/super-csv/index.html) - Java API To CSV Format Files
 
 ## Packages
 - [x] Spring Boot
