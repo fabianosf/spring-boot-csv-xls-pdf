@@ -36,7 +36,7 @@
 │           ├── com.springformat.repository
 │           └── com.springformat.service
             ├── com.springformat.view
-            ├── com.springformat.view.Resolver
+            ├── com.springformat.viewResolver
 ├── src
 │   └── main
 │       └── resources
