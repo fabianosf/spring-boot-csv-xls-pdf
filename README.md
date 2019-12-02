@@ -64,7 +64,7 @@
 ```
 
 ## Packages
-- `models` — to hold our entities;
+- `entity` — to hold our entities;
 - `repositories` — to communicate with the database;
 - `services` — to hold our business logic;
 - `controllers` — to listen to the user;
